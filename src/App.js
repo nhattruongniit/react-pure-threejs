@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom'
 
+import Stats from 'components/Stats';
+
 function App() {
   return (
     <div className="App">
@@ -10,6 +12,7 @@ function App() {
         <Link to='/transformmany'>TransformMany</Link>
         <Link to='/arbiter'>Arbiter</Link>
       </div>
+      <Stats />
     </div>
   );
 }

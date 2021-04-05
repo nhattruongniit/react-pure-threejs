@@ -15,12 +15,23 @@ code {
     monospace;
 }
 
+.App {
+  padding: 5px;
+}
+
 .navbar {
   height: 18px;
-  padding: 8px;
+  padding: 8px 0;
 }
 
 .navbar a + a {
   margin-left: 8px;
   color: #000;
+}
+
+.statsRow {
+  display: inline-block;
+}
+.statsRow + .statsRow {
+  margin-left: 10px;
 }
